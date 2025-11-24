@@ -1,0 +1,489 @@
+131.1251 	INFO 	Loaded monitor calibration from ['2025_08_21 09:54']
+131.1427 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1200]. Using actual size
+131.3706 	INFO 	Using renderer 'Intel(R) UHD Graphics' for graphics
+131.3706 	INFO 	OpenGL version supported by driver is 4..
+131.4872 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000019DD33A9B70>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000019DD33A9B10>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000019DD34573D0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+131.4873 	EXP 	window1: backgroundImage = ''
+131.4874 	EXP 	window1: backgroundFit = 'none'
+132.1715 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+132.1716 	EXP 	window1: recordFrameIntervals = False
+132.3687 	EXP 	window1: recordFrameIntervals = True
+132.5696 	EXP 	Screen (0) actual frame rate measured at 59.82Hz
+132.5697 	EXP 	window1: recordFrameIntervals = False
+132.7391 	INFO 	keyboard.Keyboard is using ptb backend.
+132.7393 	INFO 	keyboard.Keyboard is using ptb backend.
+132.7393 	INFO 	keyboard.Keyboard is using ptb backend.
+132.7393 	INFO 	keyboard.Keyboard is using ptb backend.
+132.7394 	INFO 	keyboard.Keyboard is using ptb backend.
+132.7394 	INFO 	keyboard.Keyboard is using ptb backend.
+132.7394 	INFO 	keyboard.Keyboard is using ptb backend.
+132.7395 	EXP 	solo_project_drm: status = STARTED
+132.8361 	EXP 	Created text_welcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_welcome', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to my experiment.', units='height', win=Window(...), wrapWidth=1)
+132.8548 	EXP 	Created text_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_instr', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+132.8554 	EXP 	Created textAnger = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textAnger', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+132.8561 	EXP 	Created textBlank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textBlank', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+132.8565 	EXP 	Created textCold = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textCold', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+132.8572 	EXP 	Created textBlank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textBlank', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+132.8594 	EXP 	Created textSleep = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textSleep', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+132.8602 	EXP 	Created textBlank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textBlank', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+132.8658 	EXP 	Created text_instr2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_instr2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+132.8713 	EXP 	Created textMath = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textMath', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='(7 + 6) - 10 =', units='height', win=Window(...), wrapWidth=1)
+132.8822 	EXP 	Created text_instr3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_instr3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+132.8827 	EXP 	Created textTest = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textTest', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+132.8834 	EXP 	Created textBlank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textBlank', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+132.8962 	EXP 	Created textThanks = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='textThanks', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0221 	EXP 	text_welcome: autoDraw = True
+3.0244 	INFO 	Keyboard events cleared
+3.0242 	EXP 	text_welcome: autoDraw = False
+3.0242 	EXP 	text_instr: autoDraw = True
+7.4929 	EXP 	Device response: <KeyPress from None: t=7.47384890000103, value=space, duration=None>
+7.4939 	DATA 	Keypress: space
+7.5052 	EXP 	Imported drm_words.xlsx as conditions, 10 conditions, 1 params
+7.5059 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'testAnger': 'fury', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+7.5113 	EXP 	text_instr: autoDraw = False
+7.5113 	EXP 	textAnger: height = np.float64(0.05)
+7.5113 	EXP 	textAnger: height = np.float64(0.05)
+7.5113 	EXP 	textAnger: height = np.float64(0.05)
+7.5113 	EXP 	textAnger: text = 'fury'
+7.5113 	EXP 	textAnger: autoDraw = True
+7.5907 	EXP 	Device response: <KeyPress from None: t=7.47384890000103, value=space, duration=0.11616949999006465>
+8.5238 	EXP 	textAnger: autoDraw = False
+8.5238 	EXP 	textBlank: autoDraw = True
+9.0085 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'testAnger': 'fight', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+9.0245 	EXP 	textBlank: autoDraw = False
+9.0245 	EXP 	textAnger: height = np.float64(0.05)
+9.0245 	EXP 	textAnger: height = np.float64(0.05)
+9.0245 	EXP 	textAnger: height = np.float64(0.05)
+9.0245 	EXP 	textAnger: text = 'fight'
+9.0245 	EXP 	textAnger: autoDraw = True
+10.0248 	EXP 	textAnger: autoDraw = False
+10.0248 	EXP 	textBlank: autoDraw = True
+10.5096 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'testAnger': 'temper', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+10.5244 	EXP 	textBlank: autoDraw = False
+10.5244 	EXP 	textAnger: height = np.float64(0.05)
+10.5244 	EXP 	textAnger: height = np.float64(0.05)
+10.5244 	EXP 	textAnger: height = np.float64(0.05)
+10.5244 	EXP 	textAnger: text = 'temper'
+10.5244 	EXP 	textAnger: autoDraw = True
+11.5250 	EXP 	textAnger: autoDraw = False
+11.5250 	EXP 	textBlank: autoDraw = True
+12.0079 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'testAnger': 'emotion', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+12.0235 	EXP 	textBlank: autoDraw = False
+12.0235 	EXP 	textAnger: height = np.float64(0.05)
+12.0235 	EXP 	textAnger: height = np.float64(0.05)
+12.0235 	EXP 	textAnger: height = np.float64(0.05)
+12.0235 	EXP 	textAnger: text = 'emotion'
+12.0235 	EXP 	textAnger: autoDraw = True
+13.0240 	EXP 	textAnger: autoDraw = False
+13.0240 	EXP 	textBlank: autoDraw = True
+13.5077 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'testAnger': 'rage', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+13.5230 	EXP 	textBlank: autoDraw = False
+13.5230 	EXP 	textAnger: height = np.float64(0.05)
+13.5230 	EXP 	textAnger: height = np.float64(0.05)
+13.5230 	EXP 	textAnger: height = np.float64(0.05)
+13.5230 	EXP 	textAnger: text = 'rage'
+13.5230 	EXP 	textAnger: autoDraw = True
+14.5249 	EXP 	textAnger: autoDraw = False
+14.5249 	EXP 	textBlank: autoDraw = True
+15.0080 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'testAnger': 'mad', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+15.0239 	EXP 	textBlank: autoDraw = False
+15.0239 	EXP 	textAnger: height = np.float64(0.05)
+15.0239 	EXP 	textAnger: height = np.float64(0.05)
+15.0239 	EXP 	textAnger: height = np.float64(0.05)
+15.0239 	EXP 	textAnger: text = 'mad'
+15.0239 	EXP 	textAnger: autoDraw = True
+16.0248 	EXP 	textAnger: autoDraw = False
+16.0248 	EXP 	textBlank: autoDraw = True
+16.5087 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'testAnger': 'hate', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+16.5242 	EXP 	textBlank: autoDraw = False
+16.5242 	EXP 	textAnger: height = np.float64(0.05)
+16.5242 	EXP 	textAnger: height = np.float64(0.05)
+16.5242 	EXP 	textAnger: height = np.float64(0.05)
+16.5242 	EXP 	textAnger: text = 'hate'
+16.5242 	EXP 	textAnger: autoDraw = True
+17.5238 	EXP 	textAnger: autoDraw = False
+17.5238 	EXP 	textBlank: autoDraw = True
+18.0075 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'testAnger': 'fear', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+18.0241 	EXP 	textBlank: autoDraw = False
+18.0241 	EXP 	textAnger: height = np.float64(0.05)
+18.0241 	EXP 	textAnger: height = np.float64(0.05)
+18.0241 	EXP 	textAnger: height = np.float64(0.05)
+18.0241 	EXP 	textAnger: text = 'fear'
+18.0241 	EXP 	textAnger: autoDraw = True
+19.0229 	EXP 	textAnger: autoDraw = False
+19.0229 	EXP 	textBlank: autoDraw = True
+19.5073 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'testAnger': 'wrath', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+19.5230 	EXP 	textBlank: autoDraw = False
+19.5230 	EXP 	textAnger: height = np.float64(0.05)
+19.5230 	EXP 	textAnger: height = np.float64(0.05)
+19.5230 	EXP 	textAnger: height = np.float64(0.05)
+19.5230 	EXP 	textAnger: text = 'wrath'
+19.5230 	EXP 	textAnger: autoDraw = True
+20.5240 	EXP 	textAnger: autoDraw = False
+20.5240 	EXP 	textBlank: autoDraw = True
+21.0078 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'testAnger': 'mean', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+21.0232 	EXP 	textBlank: autoDraw = False
+21.0232 	EXP 	textAnger: height = np.float64(0.05)
+21.0232 	EXP 	textAnger: height = np.float64(0.05)
+21.0232 	EXP 	textAnger: height = np.float64(0.05)
+21.0232 	EXP 	textAnger: text = 'mean'
+21.0232 	EXP 	textAnger: autoDraw = True
+22.0237 	EXP 	textAnger: autoDraw = False
+22.0237 	EXP 	textBlank: autoDraw = True
+22.5223 	EXP 	Imported lureCold.xlsx as conditions, 10 conditions, 1 params
+22.5227 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'lureCold': 'winter', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+22.5278 	EXP 	textBlank: autoDraw = False
+22.5278 	EXP 	textCold: height = np.float64(0.05)
+22.5278 	EXP 	textCold: height = np.float64(0.05)
+22.5278 	EXP 	textCold: height = np.float64(0.05)
+22.5278 	EXP 	textCold: text = 'winter'
+22.5278 	EXP 	textCold: autoDraw = True
+23.5221 	EXP 	textCold: autoDraw = False
+23.5221 	EXP 	textBlank: autoDraw = True
+24.0073 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'lureCold': 'hot', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+24.0231 	EXP 	textBlank: autoDraw = False
+24.0231 	EXP 	textCold: height = np.float64(0.05)
+24.0231 	EXP 	textCold: height = np.float64(0.05)
+24.0231 	EXP 	textCold: height = np.float64(0.05)
+24.0231 	EXP 	textCold: text = 'hot'
+24.0231 	EXP 	textCold: autoDraw = True
+25.0231 	EXP 	textCold: autoDraw = False
+25.0231 	EXP 	textBlank: autoDraw = True
+25.5057 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'lureCold': 'shiver', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+25.5220 	EXP 	textBlank: autoDraw = False
+25.5220 	EXP 	textCold: height = np.float64(0.05)
+25.5220 	EXP 	textCold: height = np.float64(0.05)
+25.5220 	EXP 	textCold: height = np.float64(0.05)
+25.5220 	EXP 	textCold: text = 'shiver'
+25.5220 	EXP 	textCold: autoDraw = True
+26.5219 	EXP 	textCold: autoDraw = False
+26.5219 	EXP 	textBlank: autoDraw = True
+27.0053 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'lureCold': 'air', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+27.0220 	EXP 	textBlank: autoDraw = False
+27.0220 	EXP 	textCold: height = np.float64(0.05)
+27.0220 	EXP 	textCold: height = np.float64(0.05)
+27.0220 	EXP 	textCold: height = np.float64(0.05)
+27.0220 	EXP 	textCold: text = 'air'
+27.0220 	EXP 	textCold: autoDraw = True
+28.0235 	EXP 	textCold: autoDraw = False
+28.0235 	EXP 	textBlank: autoDraw = True
+28.5060 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'lureCold': 'freeze', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+28.5221 	EXP 	textBlank: autoDraw = False
+28.5221 	EXP 	textCold: height = np.float64(0.05)
+28.5221 	EXP 	textCold: height = np.float64(0.05)
+28.5221 	EXP 	textCold: height = np.float64(0.05)
+28.5221 	EXP 	textCold: text = 'freeze'
+28.5221 	EXP 	textCold: autoDraw = True
+29.5218 	EXP 	textCold: autoDraw = False
+29.5218 	EXP 	textBlank: autoDraw = True
+30.0059 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'lureCold': 'ice', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+30.0217 	EXP 	textBlank: autoDraw = False
+30.0217 	EXP 	textCold: height = np.float64(0.05)
+30.0217 	EXP 	textCold: height = np.float64(0.05)
+30.0217 	EXP 	textCold: height = np.float64(0.05)
+30.0217 	EXP 	textCold: text = 'ice'
+30.0217 	EXP 	textCold: autoDraw = True
+31.0224 	EXP 	textCold: autoDraw = False
+31.0224 	EXP 	textBlank: autoDraw = True
+31.5073 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'lureCold': 'weather', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+31.5232 	EXP 	textBlank: autoDraw = False
+31.5232 	EXP 	textCold: height = np.float64(0.05)
+31.5232 	EXP 	textCold: height = np.float64(0.05)
+31.5232 	EXP 	textCold: height = np.float64(0.05)
+31.5232 	EXP 	textCold: text = 'weather'
+31.5232 	EXP 	textCold: autoDraw = True
+32.5227 	EXP 	textCold: autoDraw = False
+32.5227 	EXP 	textBlank: autoDraw = True
+33.0075 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'lureCold': 'wet', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+33.0231 	EXP 	textBlank: autoDraw = False
+33.0231 	EXP 	textCold: height = np.float64(0.05)
+33.0231 	EXP 	textCold: height = np.float64(0.05)
+33.0231 	EXP 	textCold: height = np.float64(0.05)
+33.0231 	EXP 	textCold: text = 'wet'
+33.0231 	EXP 	textCold: autoDraw = True
+34.0236 	EXP 	textCold: autoDraw = False
+34.0236 	EXP 	textBlank: autoDraw = True
+34.5073 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'lureCold': 'snow', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+34.5241 	EXP 	textBlank: autoDraw = False
+34.5241 	EXP 	textCold: height = np.float64(0.05)
+34.5241 	EXP 	textCold: height = np.float64(0.05)
+34.5241 	EXP 	textCold: height = np.float64(0.05)
+34.5241 	EXP 	textCold: text = 'snow'
+34.5241 	EXP 	textCold: autoDraw = True
+35.5234 	EXP 	textCold: autoDraw = False
+35.5234 	EXP 	textBlank: autoDraw = True
+36.0077 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'lureCold': 'chilly', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+36.0232 	EXP 	textBlank: autoDraw = False
+36.0232 	EXP 	textCold: height = np.float64(0.05)
+36.0232 	EXP 	textCold: height = np.float64(0.05)
+36.0232 	EXP 	textCold: height = np.float64(0.05)
+36.0232 	EXP 	textCold: text = 'chilly'
+36.0232 	EXP 	textCold: autoDraw = True
+37.0236 	EXP 	textCold: autoDraw = False
+37.0236 	EXP 	textBlank: autoDraw = True
+37.5768 	EXP 	Imported lureSleep.xlsx as conditions, 10 conditions, 1 params
+37.5771 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'lureSleep': 'dream', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+37.5825 	EXP 	textBlank: autoDraw = False
+37.5825 	EXP 	textSleep: height = np.float64(0.05)
+37.5825 	EXP 	textSleep: height = np.float64(0.05)
+37.5825 	EXP 	textSleep: height = np.float64(0.05)
+37.5825 	EXP 	textSleep: text = 'dream'
+37.5825 	EXP 	textSleep: autoDraw = True
+38.5237 	EXP 	textSleep: autoDraw = False
+38.5237 	EXP 	textBlank: autoDraw = True
+39.0075 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'lureSleep': 'awake', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+39.0228 	EXP 	textBlank: autoDraw = False
+39.0228 	EXP 	textSleep: height = np.float64(0.05)
+39.0228 	EXP 	textSleep: height = np.float64(0.05)
+39.0228 	EXP 	textSleep: height = np.float64(0.05)
+39.0228 	EXP 	textSleep: text = 'awake'
+39.0228 	EXP 	textSleep: autoDraw = True
+40.0231 	EXP 	textSleep: autoDraw = False
+40.0231 	EXP 	textBlank: autoDraw = True
+40.5070 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'lureSleep': 'rest', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+40.5232 	EXP 	textBlank: autoDraw = False
+40.5232 	EXP 	textSleep: height = np.float64(0.05)
+40.5232 	EXP 	textSleep: height = np.float64(0.05)
+40.5232 	EXP 	textSleep: height = np.float64(0.05)
+40.5232 	EXP 	textSleep: text = 'rest'
+40.5232 	EXP 	textSleep: autoDraw = True
+41.5232 	EXP 	textSleep: autoDraw = False
+41.5232 	EXP 	textBlank: autoDraw = True
+42.0081 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'lureSleep': 'nap', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+42.0237 	EXP 	textBlank: autoDraw = False
+42.0237 	EXP 	textSleep: height = np.float64(0.05)
+42.0237 	EXP 	textSleep: height = np.float64(0.05)
+42.0237 	EXP 	textSleep: height = np.float64(0.05)
+42.0237 	EXP 	textSleep: text = 'nap'
+42.0237 	EXP 	textSleep: autoDraw = True
+43.0240 	EXP 	textSleep: autoDraw = False
+43.0240 	EXP 	textBlank: autoDraw = True
+43.5069 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'lureSleep': 'slumber', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+43.5225 	EXP 	textBlank: autoDraw = False
+43.5225 	EXP 	textSleep: height = np.float64(0.05)
+43.5225 	EXP 	textSleep: height = np.float64(0.05)
+43.5225 	EXP 	textSleep: height = np.float64(0.05)
+43.5225 	EXP 	textSleep: text = 'slumber'
+43.5225 	EXP 	textSleep: autoDraw = True
+44.5223 	EXP 	textSleep: autoDraw = False
+44.5223 	EXP 	textBlank: autoDraw = True
+45.0074 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'lureSleep': 'tired', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+45.0232 	EXP 	textBlank: autoDraw = False
+45.0232 	EXP 	textSleep: height = np.float64(0.05)
+45.0232 	EXP 	textSleep: height = np.float64(0.05)
+45.0232 	EXP 	textSleep: height = np.float64(0.05)
+45.0232 	EXP 	textSleep: text = 'tired'
+45.0232 	EXP 	textSleep: autoDraw = True
+46.0230 	EXP 	textSleep: autoDraw = False
+46.0230 	EXP 	textBlank: autoDraw = True
+46.5085 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'lureSleep': 'blanket', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+46.5236 	EXP 	textBlank: autoDraw = False
+46.5236 	EXP 	textSleep: height = np.float64(0.05)
+46.5236 	EXP 	textSleep: height = np.float64(0.05)
+46.5236 	EXP 	textSleep: height = np.float64(0.05)
+46.5236 	EXP 	textSleep: text = 'blanket'
+46.5236 	EXP 	textSleep: autoDraw = True
+47.5241 	EXP 	textSleep: autoDraw = False
+47.5241 	EXP 	textBlank: autoDraw = True
+48.0083 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'lureSleep': 'snore', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+48.0239 	EXP 	textBlank: autoDraw = False
+48.0239 	EXP 	textSleep: height = np.float64(0.05)
+48.0239 	EXP 	textSleep: height = np.float64(0.05)
+48.0239 	EXP 	textSleep: height = np.float64(0.05)
+48.0239 	EXP 	textSleep: text = 'snore'
+48.0239 	EXP 	textSleep: autoDraw = True
+49.0240 	EXP 	textSleep: autoDraw = False
+49.0240 	EXP 	textBlank: autoDraw = True
+49.5085 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'lureSleep': 'yawn', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+49.5242 	EXP 	textBlank: autoDraw = False
+49.5242 	EXP 	textSleep: height = np.float64(0.05)
+49.5242 	EXP 	textSleep: height = np.float64(0.05)
+49.5242 	EXP 	textSleep: height = np.float64(0.05)
+49.5242 	EXP 	textSleep: text = 'yawn'
+49.5242 	EXP 	textSleep: autoDraw = True
+50.5244 	EXP 	textSleep: autoDraw = False
+50.5244 	EXP 	textBlank: autoDraw = True
+51.0076 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'lureSleep': 'bed', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+51.0232 	EXP 	textBlank: autoDraw = False
+51.0232 	EXP 	textSleep: height = np.float64(0.05)
+51.0232 	EXP 	textSleep: height = np.float64(0.05)
+51.0232 	EXP 	textSleep: height = np.float64(0.05)
+51.0232 	EXP 	textSleep: text = 'bed'
+51.0232 	EXP 	textSleep: autoDraw = True
+52.0243 	EXP 	textSleep: autoDraw = False
+52.0243 	EXP 	textBlank: autoDraw = True
+52.5248 	INFO 	Keyboard events cleared
+52.5244 	EXP 	textBlank: autoDraw = False
+52.5244 	EXP 	text_instr2: autoDraw = True
+55.4942 	DATA 	Keypress: space
+55.5080 	EXP 	Device response: <KeyPress from None: t=55.49356810003519, value=space, duration=None>
+55.5244 	INFO 	Keyboard events cleared
+55.5242 	EXP 	text_instr2: autoDraw = False
+55.5242 	EXP 	textMath: autoDraw = True
+55.6085 	EXP 	Device response: <KeyPress from None: t=55.49356810003519, value=space, duration=0.10478150000562891>
+59.2569 	EXP 	Device response: <KeyPress from None: t=59.24873330001719, value=3, duration=None>
+59.2613 	DATA 	Keypress: 3
+59.2731 	INFO 	Keyboard events cleared
+59.2729 	EXP 	textMath: autoDraw = False
+59.2729 	EXP 	text_instr3: autoDraw = True
+59.3563 	EXP 	Device response: <KeyPress from None: t=59.24873330001719, value=3, duration=0.09554240002762526>
+68.5740 	EXP 	Device response: <KeyPress from None: t=68.56715680001071, value=space, duration=None>
+68.5889 	EXP 	Imported test_file.xlsx as conditions, 10 conditions, 2 params
+68.5896 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'final_test': 'ocean', 'corrAns': 'n', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+68.5955 	DATA 	Keypress: space
+68.5986 	INFO 	Keyboard events cleared
+68.5984 	EXP 	text_instr3: autoDraw = False
+68.5984 	EXP 	textTest: height = np.float64(0.05)
+68.5984 	EXP 	textTest: height = np.float64(0.05)
+68.5984 	EXP 	textTest: height = np.float64(0.05)
+68.5984 	EXP 	textTest: text = 'ocean'
+68.5984 	EXP 	textTest: autoDraw = True
+68.7261 	EXP 	Device response: <KeyPress from None: t=68.56715680001071, value=space, duration=0.1561072000185959>
+69.6580 	EXP 	Device response: <KeyPress from None: t=69.65618049999466, value=n, duration=None>
+69.6597 	DATA 	Keypress: n
+69.6735 	EXP 	textTest: autoDraw = False
+69.6735 	EXP 	textBlank: autoDraw = True
+69.8578 	EXP 	Device response: <KeyPress from None: t=69.65618049999466, value=n, duration=0.2010170000139624>
+70.1570 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'final_test': 'dream', 'corrAns': 'y', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+70.1736 	INFO 	Keyboard events cleared
+70.1734 	EXP 	textBlank: autoDraw = False
+70.1734 	EXP 	textBlank: autoDraw = False
+70.1734 	EXP 	textTest: height = np.float64(0.05)
+70.1734 	EXP 	textTest: height = np.float64(0.05)
+70.1734 	EXP 	textTest: height = np.float64(0.05)
+70.1734 	EXP 	textTest: text = 'dream'
+70.1734 	EXP 	textTest: autoDraw = True
+71.3411 	EXP 	Device response: <KeyPress from None: t=71.32881430000998, value=n, duration=None>
+71.3434 	DATA 	Keypress: n
+71.3576 	EXP 	textTest: autoDraw = False
+71.3576 	EXP 	textBlank: autoDraw = True
+71.4759 	EXP 	Device response: <KeyPress from None: t=71.32881430000998, value=n, duration=0.14286880003055558>
+71.8412 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'final_test': 'bed', 'corrAns': 'y', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+71.8572 	INFO 	Keyboard events cleared
+71.8569 	EXP 	textBlank: autoDraw = False
+71.8569 	EXP 	textBlank: autoDraw = False
+71.8569 	EXP 	textTest: height = np.float64(0.05)
+71.8569 	EXP 	textTest: height = np.float64(0.05)
+71.8569 	EXP 	textTest: height = np.float64(0.05)
+71.8569 	EXP 	textTest: text = 'bed'
+71.8569 	EXP 	textTest: autoDraw = True
+72.6739 	EXP 	Device response: <KeyPress from None: t=72.66711100004613, value=y, duration=None>
+72.6759 	DATA 	Keypress: y
+72.6904 	EXP 	textTest: autoDraw = False
+72.6904 	EXP 	textBlank: autoDraw = True
+72.7578 	EXP 	Device response: <KeyPress from None: t=72.66711100004613, value=y, duration=0.08485980000114068>
+73.1746 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'final_test': 'apple', 'corrAns': 'n', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+73.1900 	INFO 	Keyboard events cleared
+73.1897 	EXP 	textBlank: autoDraw = False
+73.1897 	EXP 	textBlank: autoDraw = False
+73.1897 	EXP 	textTest: height = np.float64(0.05)
+73.1897 	EXP 	textTest: height = np.float64(0.05)
+73.1897 	EXP 	textTest: height = np.float64(0.05)
+73.1897 	EXP 	textTest: text = 'apple'
+73.1897 	EXP 	textTest: autoDraw = True
+74.1240 	EXP 	Device response: <KeyPress from None: t=74.11621240002569, value=n, duration=None>
+74.1256 	DATA 	Keypress: n
+74.1399 	EXP 	textTest: autoDraw = False
+74.1399 	EXP 	textBlank: autoDraw = True
+74.2752 	EXP 	Device response: <KeyPress from None: t=74.11621240002569, value=n, duration=0.1570180999697186>
+74.6237 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'final_test': 'mad', 'corrAns': 'y', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+74.6397 	INFO 	Keyboard events cleared
+74.6395 	EXP 	textBlank: autoDraw = False
+74.6395 	EXP 	textBlank: autoDraw = False
+74.6395 	EXP 	textTest: height = np.float64(0.05)
+74.6395 	EXP 	textTest: height = np.float64(0.05)
+74.6395 	EXP 	textTest: height = np.float64(0.05)
+74.6395 	EXP 	textTest: text = 'mad'
+74.6395 	EXP 	textTest: autoDraw = True
+75.5426 	EXP 	Device response: <KeyPress from None: t=75.53941700002179, value=n, duration=None>
+75.5442 	DATA 	Keypress: n
+75.5568 	EXP 	textTest: autoDraw = False
+75.5568 	EXP 	textBlank: autoDraw = True
+75.7424 	EXP 	Device response: <KeyPress from None: t=75.53941700002179, value=n, duration=0.20093290001386777>
+76.0417 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'final_test': 'guitar', 'corrAns': 'n', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+76.0564 	INFO 	Keyboard events cleared
+76.0561 	EXP 	textBlank: autoDraw = False
+76.0561 	EXP 	textBlank: autoDraw = False
+76.0561 	EXP 	textTest: height = np.float64(0.05)
+76.0561 	EXP 	textTest: height = np.float64(0.05)
+76.0561 	EXP 	textTest: height = np.float64(0.05)
+76.0561 	EXP 	textTest: text = 'guitar'
+76.0561 	EXP 	textTest: autoDraw = True
+76.8911 	EXP 	Device response: <KeyPress from None: t=76.89011490001576, value=n, duration=None>
+76.8927 	DATA 	Keypress: n
+76.9076 	EXP 	textTest: autoDraw = False
+76.9076 	EXP 	textBlank: autoDraw = True
+77.0417 	EXP 	Device response: <KeyPress from None: t=76.89011490001576, value=n, duration=0.14497929997742176>
+77.3915 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'final_test': 'anger', 'corrAns': 'n', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+77.4068 	INFO 	Keyboard events cleared
+77.4066 	EXP 	textBlank: autoDraw = False
+77.4066 	EXP 	textBlank: autoDraw = False
+77.4066 	EXP 	textTest: height = np.float64(0.05)
+77.4066 	EXP 	textTest: height = np.float64(0.05)
+77.4066 	EXP 	textTest: height = np.float64(0.05)
+77.4066 	EXP 	textTest: text = 'anger'
+77.4066 	EXP 	textTest: autoDraw = True
+78.6916 	EXP 	Device response: <KeyPress from None: t=78.68243109999457, value=n, duration=None>
+78.6939 	DATA 	Keypress: n
+78.7080 	EXP 	textTest: autoDraw = False
+78.7080 	EXP 	textBlank: autoDraw = True
+78.8416 	EXP 	Device response: <KeyPress from None: t=78.68243109999457, value=n, duration=0.15150120004545897>
+79.1917 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'final_test': 'snow', 'corrAns': 'y', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+79.2065 	INFO 	Keyboard events cleared
+79.2063 	EXP 	textBlank: autoDraw = False
+79.2063 	EXP 	textBlank: autoDraw = False
+79.2063 	EXP 	textTest: height = np.float64(0.05)
+79.2063 	EXP 	textTest: height = np.float64(0.05)
+79.2063 	EXP 	textTest: height = np.float64(0.05)
+79.2063 	EXP 	textTest: text = 'snow'
+79.2063 	EXP 	textTest: autoDraw = True
+79.8578 	EXP 	Device response: <KeyPress from None: t=79.84665429999586, value=n, duration=None>
+79.8598 	DATA 	Keypress: n
+79.8730 	EXP 	textTest: autoDraw = False
+79.8730 	EXP 	textBlank: autoDraw = True
+79.9573 	EXP 	Device response: <KeyPress from None: t=79.84665429999586, value=n, duration=0.10955620004097>
+80.3570 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'final_test': 'cold', 'corrAns': 'n', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+80.3728 	INFO 	Keyboard events cleared
+80.3725 	EXP 	textBlank: autoDraw = False
+80.3725 	EXP 	textBlank: autoDraw = False
+80.3725 	EXP 	textTest: height = np.float64(0.05)
+80.3725 	EXP 	textTest: height = np.float64(0.05)
+80.3725 	EXP 	textTest: height = np.float64(0.05)
+80.3725 	EXP 	textTest: text = 'cold'
+80.3725 	EXP 	textTest: autoDraw = True
+81.2379 	EXP 	Device response: <KeyPress from None: t=81.23698829999194, value=n, duration=None>
+81.2388 	DATA 	Keypress: n
+81.2546 	EXP 	textTest: autoDraw = False
+81.2546 	EXP 	textBlank: autoDraw = True
+81.3890 	EXP 	Device response: <KeyPress from None: t=81.23698829999194, value=n, duration=0.13915740000084043>
+81.7384 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'final_test': 'sleep', 'corrAns': 'n', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+81.7546 	INFO 	Keyboard events cleared
+81.7545 	EXP 	textBlank: autoDraw = False
+81.7545 	EXP 	textBlank: autoDraw = False
+81.7545 	EXP 	textTest: height = np.float64(0.05)
+81.7545 	EXP 	textTest: height = np.float64(0.05)
+81.7545 	EXP 	textTest: height = np.float64(0.05)
+81.7545 	EXP 	textTest: text = 'sleep'
+81.7545 	EXP 	textTest: autoDraw = True
+82.5418 	DATA 	Keypress: n
+82.5562 	EXP 	Device response: <KeyPress from None: t=82.54028700001072, value=n, duration=None>
+82.5725 	EXP 	textTest: autoDraw = False
+82.5725 	EXP 	textBlank: autoDraw = True
+82.6730 	EXP 	Device response: <KeyPress from None: t=82.54028700001072, value=n, duration=0.12544500001240522>
+83.0727 	INFO 	Keyboard events cleared
+83.0725 	EXP 	textBlank: autoDraw = False
+83.0725 	EXP 	textBlank: autoDraw = False
+83.0725 	EXP 	textThanks: autoDraw = True
+88.0583 	EXP 	Device response: <KeyPress from None: t=88.05606000003172, value=space, duration=None>
+88.0595 	DATA 	Keypress: space
+88.0731 	EXP 	textThanks: autoDraw = False
+88.0735 	EXP 	solo_project_drm: status = STOPPED
+88.0971 	INFO 	saved data to 'C:\\Users\\Dell\\OneDrive\\Desktop\\PSY310\\SOLO PROJECT\\data\\4_solo_project_drm_2025-11-19_17h00.13.848.csv'
+88.1020 	INFO 	saved data to C:\Users\Dell\OneDrive\Desktop\PSY310\SOLO PROJECT\data\4_solo_project_drm_2025-11-19_17h00.13.848.psydat
+88.4334 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+88.4671 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+88.4672 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+88.4672 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+88.4672 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+88.4672 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+88.4672 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
